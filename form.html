@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AltSchool Form</title>
+  </head>
+  <body>
+    <header>
+      <h1>ALTSCHOOL AFRICA</h1>
+      <nav>
+        <ul>
+          <li><a href="./index.html" target="_self">About me</a></li>
+          <li><a href="./form.html">Apply here</a></li>
+        </ul>
+      </nav>
+      <h2>Application Form</h2>
+    </header>
+
+    <main>
+      <form method="get">
+        <h3>Fill in your details</h3>
+
+        <div>
+          <label for="first-name">First Name</label>
+          </div>
+          
+          <div>
+          <input
+            type="text"
+            id="first-name"
+            name="first-name"
+            aria-required="true"
+            placeholder="Enter first name"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="last-name">Last Name</label> <br />
+          <input
+            type="text"
+            id="last-name"
+            name="last-name"
+            placeholder="Enter last name"
+            aria-required="true"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="gender">Gender</label> <br />
+          <select name="gender" id="gender" aria-required="true" required>
+            <option value=""></option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="date-of-birth">Date of Birth</label> <br />
+          <input
+            type="date"
+            id="date-of-birth"
+            name="date-of-birth"
+            aria-required="true"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="email-address"> Email Address</label> <br />
+          <input
+            type="email"
+            name="email-address"
+            id="email-address"
+            placeholder="Enter your email address"
+            aria-required="true"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="education">Education level</label> <br />
+          <select name="education" id="education" aria-required="true" required>
+            <option value=""></option>
+            <option value="bsc">Bsc</option>
+            <option value="msc">Msc</option>
+            <option value="diploma">Diploma</option>
+            <option value="phd">PhD</option>
+            <option value="undergraduate">Undergraduate</option>
+            <option value="high-school">High School/Secondary School</option>
+            <option value="">Junior/Middle School</option>
+            <option value="postgraduate">Postgraduate</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="country">Country</label> <br />
+          <input
+            type="text"
+            name="country"
+            id="country"
+            aria-required="true"
+            aria-placeholder="true"
+            placeholder="Enter your country"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="state">State/City of Residence</label> <br />
+          <input
+            type="text"
+            name="state"
+            id="state"
+            placeholder="Enter your state/city of residence"
+            aria-required="true"
+            aria-placeholder="true"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="employment-status">Employment Status</label> <br />
+          <select
+            name="employment-status"
+            id="employment-status"
+            aria-required="true"
+            required
+          >
+            <option value=""></option>
+            <option value="employed">Employed</option>
+            <option value="unemployed">Unemployed</option>
+            <option value="student">Student</option>
+            <option value="self-employed">Self employed</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="phone-number">Phone Number</label> <br />
+          <input
+            type="tel"
+            name="phone-number"
+            id="phone-number"
+            placeholder="08151891293"
+            aria-placeholder="true"
+            aria-required="true"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="school">School</label> <br />
+          <input
+            type="text"
+            name="school"
+            id="school"
+            required
+            aria-required="true"
+            placeholder="Enter your school"
+          />
+        </div>
+        <div>
+          <label for="course">Course of Study</label> <br />
+          <input
+            type="text"
+            name="course"
+            id="course"
+            required
+            aria-required="true"
+            placeholder="Enter your course"
+          />
+        </div>
+
+        <div>
+          <label for="channel">How did you hear about us?</label> <br />
+          <select name="channel" id="channel" aria-required="true" required>
+            <option value=""></option>
+            <option value="x">X</option>
+            <option value="facebook">Facebook</option>
+            <option value="linkedin">LinkedIn</option>
+            <option value="youtube">Youtube</option>
+            <option value="friend">Friend</option>
+            <option value="whatsapp">WhatsApp</option>
+            <option value="instagram">Instagram</option>
+            <option value="billboard">Billboard</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="discount"
+            >Scholarship/Discount Code &#40;optional&#41;</label
+          >
+          <br />
+          <input
+            type="text"
+            id="discount"
+            name="discount"
+            aria-required="true"
+            aria-placeholder="true"
+            placeholder="Scholarship or student ID or discount codes"
+          />
+        </div>
+
+        <h4>
+          By clicking proceed, I agree to<a
+            href="https://www.altschoolafrica.com/terms"
+            target="_blank"
+            >Terms of Use</a
+          >
+          and acknowledge that I have read the
+          <a href="https://altschoolafrica.com/policy" target="_blank"
+            >Privacy Policy</a
+          >
+        </h4>
+
+        <button name="submit-button" type="submit">Proceed</button>
+      </form>
+    </main>
+
+    <footer>
+      <p>&copy;AltSchool Africa 2023 All Rights Reserved</p>
+    </footer>
+  </body>
+</html>
